@@ -4,9 +4,8 @@
       "flex-layout.row#main"
     ]
   },
-
-  "flex-layout.row#main": { 
-    "props": { 
+  "flex-layout.row#main": {
+    "props": {
       "marginTop": 6
     },
     "children": [
@@ -14,17 +13,15 @@
       "flex-layout.col#right"
     ]
   },
-
   "flex-layout.col#left": {
     "children": [
       "product-images"
     ]
   },
-
   "flex-layout.col#right": {
     "props": {
-      "preventVerticalStretch" : true,
-      "verticalAlign" : "middle"
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle"
     },
     "children": [
       "product-name",
@@ -32,7 +29,6 @@
       "buy-button"
     ]
   },
-
   "product-price": {
     "props": {
       "showSavings": true,
