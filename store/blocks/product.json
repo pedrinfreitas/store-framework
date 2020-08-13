@@ -5,8 +5,8 @@
     ]
   },
 
-  "flex-layout.row#main": {
-    "props": {
+  "flex-layout.row#main": { 
+    "props": { 
       "marginTop": 6
     },
     "children": [
@@ -23,8 +23,8 @@
 
   "flex-layout.col#right": {
     "props": {
-      "verticalAlign": "middle",
-      "preventVerticalStretch": true
+      "preventVerticalStretch" : true,
+      "verticalAlign" : "middle"
     },
     "children": [
       "product-name",
@@ -32,7 +32,7 @@
       "buy-button"
     ]
   },
-  
+
   "product-price": {
     "props": {
       "showSavings": true,
