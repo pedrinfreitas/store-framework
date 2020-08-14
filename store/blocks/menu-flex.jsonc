@@ -20,6 +20,11 @@
       "flex-layout.col#img"
     ]
   },
+  "flex-layout.col#menu": {
+    "children": [
+      "vtex.menu@2.x:menu#major"
+    ]
+  },
   "flex-layout.col#img": {
     "children": [
       "image#menu",
@@ -30,26 +35,14 @@
       "horizontalAlign": "right"
     }
   },
-  "vtex.menu@2.x:menu#categories": {
-    "children": [
-      "menu-item#major-appliances",
-      "menu-item#small-appliances",
-      "menu-item#electronics"
-    ],
+  "image#menu": {
     "props": {
-      "orientation": "horizontal"
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/menu-washer.jpg",
+      "link": {
+        "url": "/small-appliances/coffee-makers"
+      },
+      "alt": "Coffee Makers Collection",
+      "maxWidth": "200px"
     }
-  },
-  "vtex.menu@2.x:submenu#electronics": {
-    "children": [
-      "vtex.menu@2.x:menu#electronics"
-    ]
-  },
-  "vtex.menu@2.x:menu#electronics": {
-    "children": [
-      "menu-item#cameras",
-      "menu-item#laptops",
-      "menu-item#tvs"
-    ]
   }
 }
